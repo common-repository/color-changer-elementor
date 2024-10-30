@@ -1,0 +1,67 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .ccel_multilingual-about
+{
+    display: flex;
+}
+
+.ccel_multilingual-about .ccel_multilingual-about-screenshots
+{
+    display: flex;
+    flex: 11;
+    margin-right: 15px;
+}
+
+.ccel_multilingual-about .ccel_multilingual-about-info
+{
+    display: flex;
+    flex: 10;
+}
+
+
+
+.ccel_multilingual-about-screenshots .screenshot
+{
+    box-sizing: border-box;
+}
+
+.ccel_multilingual-about-screenshots .screenshot img {
+
+    border: 1px solid #CCD0D4;
+    -webkit-filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.07));
+    filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.07));
+    width:100%;
+}
+
+.ccel_multilingual-about-info .plugin-description {
+  font-size: 16px;
+  line-height: 24px;
+  color: #555555;
+  margin: 0 0 20px;
+}
+
+.ccel-body .postbox h3
+{
+    padding-left: 15px;
+}
+
+div.color-single
+{
+    padding:2px 0px;
+    margin:0px;
+    display:block;
+}
+
+.ccel_colors-container table tr:nth-child(even) td {
+  background-color: red;
+}
+
+ .ccel-alert
+ {
+     background:red;
+     color:white !important;
+     padding: 15px;
+ }
